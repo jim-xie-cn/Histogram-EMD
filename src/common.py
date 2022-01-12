@@ -2,7 +2,7 @@ import pandas as pd
 import os,json
 from sklearn.preprocessing import OneHotEncoder
 
-g_ds_root = "/data/paper2/"
+g_ds_root = "/data/paper/"
 g_ds_apo_raw_file_path = g_ds_root + "raw/iot123/Malware-Project/BigDataset/IoTScenarios/"
 g_ds_apo_raw_csv_path = g_ds_root + "common/apo123/raw_csv/"
 g_ds_apo_common_csv_path = g_ds_root + "common/apo123/common/"

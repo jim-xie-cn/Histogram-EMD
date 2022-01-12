@@ -169,8 +169,8 @@ def get_features( mode_file, df ):
     return features
 
 def main():
-    train()
-    #get_features()
+
+    get_features()
 
 if __name__ == "__main__":
     main()

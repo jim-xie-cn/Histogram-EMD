@@ -5,7 +5,7 @@
     Edit by Jim Xie (xiewenwei@sina.com)  2021/11/28
 """
 import h2o
-import time,json,os,sys
+import time,json,os
 import numpy as np
 import pandas as pd
 from common import get_csv_files,preprocess,is_sample_qualified,g_ds_sample_path,g_model_path,g_ds_base_path
