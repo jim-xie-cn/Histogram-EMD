@@ -1,0 +1,1202 @@
+Num GPUs Available:  2
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 ..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version "11.0.14" 2022-01-18; OpenJDK Runtime Environment (build 11.0.14+9-Ubuntu-0ubuntu2.20.04); OpenJDK 64-Bit Server VM (build 11.0.14+9-Ubuntu-0ubuntu2.20.04, mixed mode, sharing)
+  Starting server from /data/env/ai/lib/python3.8/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /tmp/tmp7q72_cml
+  JVM stdout: /tmp/tmp7q72_cml/h2o_root_started_from_python.out
+  JVM stderr: /tmp/tmp7q72_cml/h2o_root_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         01 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.97 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+3 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         21 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.95 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+3 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+3 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         39 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.93 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+2 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         57 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.90 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+2 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+2 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         1 min 15 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.89 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+5 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         1 min 32 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.86 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+5 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+5 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         1 min 49 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.84 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+0 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         2 mins 07 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.82 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+0 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+0 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         2 mins 25 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.80 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+4 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         2 mins 42 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.77 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+4 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+4 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         3 mins 00 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.76 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+7 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         3 mins 17 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.73 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+7 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+7 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         3 mins 35 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.71 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+8 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         3 mins 53 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.69 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+8 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+8 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         4 mins 11 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.67 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+baseline deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         4 mins 29 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.64 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+baseline bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+baseline bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         4 mins 47 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.62 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+6 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         5 mins 04 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.60 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+6 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+6 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+deeplearn
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         5 mins 22 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.57 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+1 deeplearn /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 deeplearn /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+cnn
+bayes
+Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+Warning: Your H2O cluster version is too old (5 months and 8 days)!Please download and install the latest version from http://h2o.ai/download/
+--------------------------  ------------------------------------------------------------------
+H2O_cluster_uptime:         5 mins 40 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.34.0.3
+H2O_cluster_version_age:    5 months and 8 days !!!
+H2O_cluster_name:           H2O_from_python_root_nz486t
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    29.56 Gb
+H2O_cluster_total_cores:    20
+H2O_cluster_allowed_cores:  20
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://localhost:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python_version:             3.8.10 final
+--------------------------  ------------------------------------------------------------------
+loading  bayes
+loading  deeplearn
+1 bayes /data/paper4/test/3.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/0.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/2.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/5.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/8.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/7.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/1.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/4.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+1 bayes /data/paper4/test/6.csv
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+naivebayes prediction progress: |████████████████████████████████████████████████| (done) 100%
+deeplearning prediction progress: |██████████████████████████████████████████████| (done) 100%
+predict finished
+Closing connection _sid_9040 at exit
+H2O session _sid_9040 closed.
