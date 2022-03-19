@@ -20,13 +20,13 @@ class CJModelH2o:
     def __init__(self):
         h2o.init(ip="localhost",port=54321)
         self.m_models = {
-            #"bayes":H2ONaiveBayesEstimator(),
-            #"glm":H2OGeneralizedLinearEstimator(nfolds = 4),
-            #"rf":H2ORandomForestEstimator(nfolds = 4),
-            #"gbm":H2OGradientBoostingEstimator(nfolds=4),
+            "bayes":H2ONaiveBayesEstimator(),
+            "glm":H2OGeneralizedLinearEstimator(nfolds = 4),
+            "rf":H2ORandomForestEstimator(nfolds = 4),
+            "gbm":H2OGradientBoostingEstimator(nfolds=4),
             #"svm":H2OSupportVectorMachineEstimator(),
-            "xgboost":H2OXGBoostEstimator(nfolds=4)
-            #"deeplearn":H2ODeepLearningEstimator(hidden=[100, 100],nfolds = 4 ,force_load_balance = False)
+            "xgboost":H2OXGBoostEstimator(nfolds=4),
+            "deeplearn":H2ODeepLearningEstimator(hidden=[100, 100],nfolds = 4 ,force_load_balance = False)
         }
 
     def get_performance(self,model_name,df_test):

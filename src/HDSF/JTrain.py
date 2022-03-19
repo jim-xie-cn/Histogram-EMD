@@ -12,8 +12,8 @@ def main():
     for sample_name in sample_list:
         sample_name = sample_name.split(".")[0]
         train_h2o(sample_name)
-        #train_cnn(sample_name)
-        #train_svm(sample_name)
+        train_cnn(sample_name)
+        train_svm(sample_name)
 
 if __name__ == "__main__":
     main()

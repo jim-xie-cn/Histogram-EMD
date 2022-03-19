@@ -5,6 +5,7 @@ from common import g_predict_path,g_test_path,g_model_path,g_sample_path,get_sub
 from JSample import CJSample
 from JModelH2o import CJModelH2o
 from JModelCNN import CJModelCNN
+from JModelSVM import CJModelSVM
 
 def get_models():
     ret = {}
@@ -33,16 +34,14 @@ def predict():
     test_info = get_test()
     result = []
     for sample_name in model_info:
-        #if sample_name !="8":
-        #    continue
         for model_name in model_info[sample_name]:
             model_file = model_info[sample_name][model_name]
             print(model_name)
             if model_name == 'cnn':
-                #continue
                 model = CJModelCNN()
+            elif model_name == 'svm':
+                model = CJModelSVM()
             else:
-                #continue
                 model = CJModelH2o()
             model.Load(sample_name)
             for test_file in test_info:

@@ -17,6 +17,7 @@ from JDistance import CJDistance
 from tqdm import tqdm
 from JModelH2o import CJModelH2o
 from JModelCNN import CJModelCNN
+from JModelSVM import CJModelSVM
 import json
 import sys
 import pandas as pd
@@ -60,7 +61,7 @@ class CJTool:
                 df_train = pd.read_csv(train_file,index_col=0)
                 df_test = pd.read_csv(test_file,index_col=0)
                 df_tmp = CJDistance.GetDistance(df_train,df_test,100)
-                tmp = CJAnalyse.GetDistance(df_tmp)
+                tmp =  CJTool.GetDistance(df_tmp)
                 tmp['train'] = train.split(".")[0]
                 if len(tmp['train']) == 1:
                     tmp['train'] = "0%s"%tmp['train']
@@ -77,6 +78,9 @@ class CJTool:
         if model_type == 'cnn':
             model = CJModelCNN()
             model_base = CJModelCNN()
+        elif model_type == 'svm':
+            model = CJModelSVM()
+            model_base = CJModelSVM()
         else:
             model = CJModelH2o()
             model_base = CJModelH2o()
@@ -108,7 +112,7 @@ class CJTool:
 def main():
     action = sys.argv[1]
     if action == 'distance':
-        df = CTool.CalcDistance()
+        df = CJTool.CalcDistance()
         df.to_csv("%s/distance.csv"%g_predict_path)
         print("Finish calculating distance ...")
     elif action == 'model':
